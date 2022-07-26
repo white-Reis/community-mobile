@@ -1,0 +1,96 @@
+body {
+  max-width: 425px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.container img {
+  margin: 2.05em 2.1em 0.5em 2.5em;
+}
+.container .title {
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0 0 1.5em 0;
+  flex-wrap: nowrap;
+}
+.container .text {
+  width: 14.5625em;
+  height: 2.875em;
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.125em;
+  flex-wrap: nowrap;
+  margin: 0 auto 4em;
+}
+.container .pagination {
+  margin: 0 auto 4em auto;
+}
+.container .pagination input {
+  display: none;
+}
+.container .pagination label {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+.container .pagination label:last-child {
+  margin-right: 0;
+}
+.container .pagination #pagination-one:checked ~ #label-one {
+  background: #92E3A9;
+  border: none;
+}
+.container .pagination #pagination-two:checked ~ #label-two {
+  background: #92E3A9;
+  border: none;
+}
+.container .pagination #pagination-thre:checked ~ #label-thre {
+  background: #92E3A9;
+  border: none;
+}
+.container .button-continue {
+  font-size: 1.125em;
+  font-weight: 500;
+  border: none;
+  color: white;
+  background: #92E3A9;
+  margin: 0 1.8em 2.625em 1.8em;
+  padding: 0.8em 0 0.8em;
+  box-shadow: 0px 4px 10px #A1C3FC;
+}
+.container .button-continue:active {
+  box-shadow: none;
+}
+.container .button-skip {
+  color: #92E3A9;
+  font-size: 1.125em;
+  font-weight: 500;
+  background: none;
+  border: none;
+  margin-bottom: 4em;
+}
+.container .button-skip:active {
+  color: black;
+}
+.container .invisible {
+  display: none;
+}
+.container .getStard {
+  padding: 0.8em;
+  margin-bottom: 4em;
+}/*# sourceMappingURL=style.css.map */

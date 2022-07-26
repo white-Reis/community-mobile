@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script defer src="/Js/pagination.js"></script>
+    <script defer src="/Js/buttons.js"></script>
+    <title>Onboarding</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img
+          class="image-page"
+          id="image-one"
+          src="/images/Online world-pana (1) 1.svg"
+          alt=""
+        />
+
+        <img
+          id="image-two"
+          class="invisible"
+          src="/images/In no time-pana 1.svg"
+          alt="In no time"
+        />
+        <img
+          id="image-thre"
+          class="invisible"
+          src="/images/Ecommerce campaign-cuate 1.svg"
+          alt="e-comerce image"
+        />
+        <h1 class="title">Plant lover Community</h1>
+        <p class="text">Find gardening enthusiasts from all over the world</p>
+
+        <div class="pagination">
+          <input name="pagination" id="pagination-one" type="radio" checked />
+          <label id="label-one" for="pagination-one"></label>
+          <input name="pagination" id="pagination-two" type="radio" />
+          <label id="label-two" for="pagination-two"></label>
+          <input name="pagination" id="pagination-thre" type="radio" />
+          <label id="label-thre" for="pagination-thre"></label>
+        </div>
+        <button id="continue" class="button-continue">Continue</button>
+        <button id="skip" class="button-skip">Skip</button>
+      </div>
+    </main>
+  </body>
+</html>
